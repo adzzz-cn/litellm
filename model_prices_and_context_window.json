@@ -8087,6 +8087,16 @@
         "mode": "completion", 
         "supports_function_calling": true
     },
+    "ollama/deepseek-r1": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat", 
+        "supports_function_calling": true
+    },
     "ollama/internlm2_5-20b-chat": {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
